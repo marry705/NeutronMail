@@ -1,2 +1,0 @@
-# NeutronMail
- layout with model

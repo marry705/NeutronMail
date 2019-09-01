@@ -1,0 +1,148 @@
+@media screen and (max-width:1400px){
+    .review_block_article{
+        margin: 0 40vw 0 20vw;
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        font-size: 14px;
+    }
+    .header{
+        flex-direction: column;
+    } 
+    .header_nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header_language{
+        width: 100%;
+    }
+    .header_nav nav{
+        width: 100%;
+        padding: 1.5% 0 0 0;
+    } 
+    .header_init{
+        width: 100%;
+        padding: 2.5% 0 0 0;
+    }
+    .review_block blockquote{
+        margin: 2.5vh 35vw 10vh 20vw;
+    } 
+    .review_block blockquote::before{
+        left: -50px;
+    }
+    .contacts_cont ul:first-child::after{
+        height: 200%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        font-size: 10px;
+    }  
+    .header_nav nav{
+        display: none;
+    } 
+    .header_nav_mob{
+        display: block;
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        padding: 5vh 0 3vh 0;
+    }
+    .about_article{
+        max-width: 40%;
+        margin: 0 auto;
+    }
+    .privacy::after{
+        display: none;
+    }
+    .key::after{
+        display: none;
+    }
+    .physical_security{
+        width: 70%;
+    }
+    .physical_security::after {
+        height: 300%;
+    }
+    .physical_security h2,
+    .baner h2{
+        font-size: 2rem;
+    }
+    .physical_security p,
+    .baner p{
+        font-size: 1rem;
+    }
+    .review_block blockquote::before{
+        top: -20px;
+        left: -40px;
+    }
+    .review_block_article{
+        margin: 0 40vw 0 10vw;
+    }
+    .review_block blockquote p:first-child{
+        font-size: 1rem;
+    }
+    .review_block blockquote p:last-child{
+        font-size: 0.7rem;
+    }
+    .contacts_cont ul:first-child::after{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        font-size: 8px;
+    } 
+    .review_block h2{
+        font-size: 1rem;
+    }
+    .review_block p{
+        font-size: 0.8rem;
+    }
+    .review_block_article{
+        margin: 0 45vw 0 5vw;
+    }
+    .review_buttons{
+        right: -200px;
+    }
+    .contacts{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts,
+    .contacts_partners,
+    .contacts_cont{
+        width: 90%;
+    }
+}
+@media screen and (max-width:700px){
+    body{
+        font-size: 8px;
+    }  
+    .review_block blockquote p:first-child, 
+    .about_article p{
+        font-size: 0.8rem;
+    }
+    .review_block blockquote p:last-child{
+        font-size: 0.6rem;
+    } 
+    .physical_security h2,
+    .baner h2,
+    .donate h2,
+    .about_article h3{
+        font-size: 1.3rem;
+    }
+    .physical_security p,
+    .baner p,
+    .donate p{
+        font-size: 1rem;
+    }
+}
+/* @media screen and (max-width:600px){
+    body{
+        font-size: 6px;
+    }  
+} */
