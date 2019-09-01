@@ -1,2 +1,1 @@
-# NeutronMail
- layout with model
+https://marry705.github.io/NeutronMail/
